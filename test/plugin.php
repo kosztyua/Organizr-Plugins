@@ -8,7 +8,7 @@ $GLOBALS['plugins']['Test'] = array( // Plugin Name
 	'license' => 'personal', // License Type use , for multiple
 	'idPrefix' => 'TEST', // html element id prefix (All Uppercase)
 	'configPrefix' => 'TEST', // config file prefix for array items without the hypen (All Uppercase)
-	'version' => '1.0.3', // SemVer of plugin
+	'version' => '1.0.4', // SemVer of plugin
 	'image' => 'data/plugins/test/logo.png', // 1:1 non transparent image for plugin
 	'settings' => true, // does plugin need a settings modal?
 	'bind' => true, // use default bind to make settings page - true or false
@@ -46,7 +46,7 @@ class TestPlugin extends Organizr
 				array(
 					'type' => 'html',
 					'label' => 'Note',
-					'html' => 'just a note...'
+					'html' => 'just a note... TEST'
 				)
 			)
 		);
