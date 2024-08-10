@@ -1,5 +1,5 @@
 <?php
-$GLOBALS['organizrPages'][] = 'plugin_custom_page_here';
+$GLOBALS['organizrPages'][] = 'backdoor';
 function get_page_plugin_custom_page_here($Organizr)
 {
     if (!$Organizr) {
