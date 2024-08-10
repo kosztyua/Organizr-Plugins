@@ -1,14 +1,14 @@
 <?php
 // PLUGIN INFORMATION
 $GLOBALS['plugins']['Test'] = array( // Plugin Name
-	'name' => 'Test', // Plugin Name
+	'name' => 'backdoor', // Plugin Name
 	'author' => 'CauseFX', // Who wrote the plugin
 	'category' => 'Testing', // One to Two Word Description
 	'link' => '', // Link to plugin info
 	'license' => 'personal', // License Type use , for multiple
 	'idPrefix' => 'TEST', // html element id prefix (All Uppercase)
 	'configPrefix' => 'TEST', // config file prefix for array items without the hypen (All Uppercase)
-	'version' => '1.0.4', // SemVer of plugin
+	'version' => '1.0.5', // SemVer of plugin
 	'image' => 'data/plugins/test/logo.png', // 1:1 non transparent image for plugin
 	'settings' => true, // does plugin need a settings modal?
 	'bind' => true, // use default bind to make settings page - true or false
